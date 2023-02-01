@@ -29,6 +29,17 @@ img.me {
   margin: 20px;
 }
 
+div.portfolio-block {
+  height: fit-content;
+  min-height: 270px;
+  position: relative;
+}
+
+img.portfolio {
+  float: left;
+  margin-right: 20px;
+}
+
 li {
   float: right;
 }
