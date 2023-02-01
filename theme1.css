@@ -2,6 +2,7 @@ body {
   font-family: Arial;
 	background-color: rgb(23, 23, 23);
   color: white;
+  text-align: justify;
 }
 
 .navbar {
@@ -21,6 +22,11 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
+}
+
+img.me {
+  float: right;
+  margin: 20px;
 }
 
 li {
