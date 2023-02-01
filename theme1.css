@@ -10,6 +10,12 @@ body {
   border-width: 1px;
 }
 
+.center {
+  margin: auto;
+  width: 65%;
+  padding: 10px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
