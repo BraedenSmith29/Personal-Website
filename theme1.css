@@ -64,3 +64,7 @@ button:hover {
   background: #969b9e;
   text-decoration: none;
 }
+
+a:link { color: lightskyblue; }
+a:visited { color: #6d4b8d; }
+a:hover { color: #ffffff; }
