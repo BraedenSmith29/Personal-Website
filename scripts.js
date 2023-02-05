@@ -32,5 +32,9 @@ function toAiPage() {
 }
 
 function toggleTheme() {
-	// Do Nothing
+	if (document.getElementById("style-sheet").getAttribute("href") === "theme1.css") {
+		document.getElementById("style-sheet").setAttribute("href", "theme2.css");
+	} else {
+		document.getElementById("style-sheet").setAttribute("href", "theme1.css");
+	}
 }
