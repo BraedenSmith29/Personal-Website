@@ -1,19 +1,24 @@
 body {
-  font-family: Arial;
-	background-color: rgb(23, 23, 23);
-  color: white;
+  font-family: cursive;
+	background-color: rgb(255, 157, 229);
+  color: rgb(0, 0, 0);
   text-align: justify;
 }
 
 .navbar {
-  border-bottom-style: solid;
-  border-color: #ffffff;
-  border-width: 1px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 3px;
+  background-color: rgb(212, 103, 255);
+}
+
+h2 {
+  background-color: #6d4b8d;
 }
 
 .center {
   margin: auto;
-  width: 65%;
+  width: 50%;
   padding: 10px;
 }
 
@@ -25,19 +30,19 @@ ul {
 }
 
 img.me {
-  float: right;
-  margin: 20px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 div.portfolio-block {
   height: fit-content;
   min-height: 270px;
-  position: relative;
 }
 
 img.portfolio {
-  float: left;
-  margin-right: 20px;
+  float: right;
+  margin-left: 20px;
 }
 
 li {
@@ -52,19 +57,28 @@ button {
   -webkit-border-radius: 18;
   -moz-border-radius: 18;
   border-radius: 18px;
-  color: #ffffff;
+  color: #000000;
   font-size: 20px;
-  background: #000000;
+  background: #8800ff;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   margin: 10px;
 }
 
 button:hover {
-  background: #969b9e;
+  background: #7c0294;
   text-decoration: none;
 }
 
-a:link { color: lightskyblue; }
-a:visited { color: #6d4b8d; }
-a:hover { color: #ffffff; }
+a:link { 
+  color: rgb(0, 0, 0);
+  background-color: lightskyblue;
+}
+a:visited {
+  color: rgb(0, 0, 0);
+  background-color: #6d4b8d;
+}
+a:hover {
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+}
