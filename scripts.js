@@ -34,7 +34,14 @@ function toAiPage() {
 function toggleTheme() {
 	if (document.getElementById("style-sheet").getAttribute("href") === "theme1.css") {
 		document.getElementById("style-sheet").setAttribute("href", "theme2.css");
+		localStorage.setItem("style", "theme2.css")
 	} else {
 		document.getElementById("style-sheet").setAttribute("href", "theme1.css");
+		localStorage.setItem("style", "theme1.css")
 	}
+}
+
+style = localStorage.getItem("style");
+if (style === "theme2.css") {
+	document.getElementById("style-sheet").setAttribute("href", "theme2.css");
 }
